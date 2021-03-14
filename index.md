@@ -18,6 +18,7 @@ bs.get('Type','String').then((response) => {
 
 - #### Example Usage
 Get A Player's In-Game Profile Information
+
 ```
 const bs = require('api-bs')
 
