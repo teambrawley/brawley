@@ -1,0 +1,9 @@
+{
+  "title": ["Jet Brawley", "I'm Jet Brawley", "Hola Amigo"],
+  "embed": {
+    "description": "Hey I'm Jet Brawley",
+    "footer": {
+    "text" : "Made with Love By Joe Lee"
+    }
+  }
+}
