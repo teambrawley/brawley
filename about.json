@@ -1,6 +1,6 @@
 {
   "greet": ["Jet Brawley", "I'm Jet Brawley", "Hola Amigo"],
-  "description": "Hey I'm `Jet Brawley`, an [**open source**](https://github.com/BotStudios/Jet-Brawley) `Supercell games stats` bot created by <:eyy:843782722342223873> [**`Joe Lee (Chee Yong Lee)`**](https://github.com/joeleeofficial), using <:djs:844525801613033502> `discord.js@{discord.js-version}` in <:nodejs:843781938904170517> `node.js` environment with the power of <:js:843782722967437352> `JavaScript`. I've been up since {uptime} and I'm glad to see you here.",
+  "description": "Hey I'm `Jet Brawley`, an [**open source**](https://github.com/BotStudios/Jet-Brawley) `Supercell games stats` bot created by <:eyy:843782722342223873> [**`Joe (Chee Yong Lee)`**](https://github.com/joeleeofficial), using <:djs:844525801613033502> `discord.js@{discord.js-version}` in <:nodejs:843781938904170517> `node.js` environment with the power of <:js:843782722967437352> `JavaScript`. I've been up since {uptime} and I'm glad to see you here.",
   "embed": {
     
   }
