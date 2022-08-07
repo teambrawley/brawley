@@ -1,5 +1,5 @@
 {
-  "title": ["Jet Brawley", "I'm Jet Brawley", "Hola Amigo"],
+  "greet": ["Jet Brawley", "I'm Jet Brawley", "Hola Amigo"],
   "description": "Hey I'm `Jet Brawley` created by [`Joe Lee (Chee Yong Lee)`](https://github.com/joeleeofficial), using `discord.js@{discord.js-version}` in `node.js` environment with `JavaScript` and I've been up for {uptime}.",
   "embed": {
     
