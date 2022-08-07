@@ -7,8 +7,8 @@
       { "name": "Our Team", "value": "[`@BotStudios`](https://github.com/BotStudios) & [`@CodingStudios`](https://github.com/CodingStudios)", "inline": false },
       { "name": "Website", "value": "[`Visit`](https://brawley.js.org)", "inline": true },
       { "name": "Contributors", "value": "[`@leecheeyong`](https://github.com/leecheeyong) & [`@w3cy`](https://github.com/w3cy)", "inline": false },
-      { "name": "Updates", "value": "```Jet Brawley Reworked !\n\nWe are so excited to announce that we have successfully added slash commands support and removed old message command as well as the transformation from multi purpose bot into a Supercell games stats bot. We'd like appreciate all the users that support the development of Jet Brawley. -- The owner of the bot, Joe```", "inline": false },
-      { "name": "Community/Support Server", "value": "[`Join Now`](https://discord.gg/Q9eMTRM3PH)", "inline": false }
+      { "name": "Community/Support Server", "value": "[`Join Now`](https://discord.gg/Q9eMTRM3PH)", "inline": false },
+      { "name": "Updates", "value": "```Jet Brawley Reworked !\n\nWe are so excited to announce that we have successfully added slash commands support and removed old message command as well as the transformation from multi purpose bot into a Supercell games stats bot. We'd like appreciate all the users that support the development of Jet Brawley. -- The owner of the bot, Joe```", "inline": false }
     ] 
   }
 }
