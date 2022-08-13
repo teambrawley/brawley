@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+    --color-red: hsl(0, 100%, 85%);
+    --color-grey: hsl(0, 6%, 90%);
+}
+
+body {
+    background-color: #494949;
+    align-items: center;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lilita One', cursive;
+}
+
+.nav {
+    position:fixed;
+    top:0;
+    width: 50%;
+    left: 25%;
+    margin: 2em;
+    height:100px;
+    text-align: center;
+    background-color: #5c5c5c;
+    border-radius: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav h2 {
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-red);
+    display: inline-block;
+}
+
+.nav h2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+
+.home {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 23%;
+    width: 100%;
+    height: 80vh;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#features {
+    padding-top: 8%;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-red);
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    margin: 8em;
+    margin-top: 6em;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box > span {
+    font-weight: 550;
+    font-size: 1.4em;
+    line-height: 2em;
+    display: inline-block;
+    color: var(--color-grey);
+}
+
+.box {
+    background-color: #777676;
+    height: 23em;
+    width: 17em;
+    border-radius: 30px;
+    display:table-cell;
+    padding: 2em;
+}
+
+.box > h1 {
+    font-size: 2.5em;
+    color: var(--color-red);
+}
+
+#about {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    line-height: 1.5em;
+    padding-top: 10%;
+    height: 80vh;
+}
+
+#about a {
+    color:hsl(0, 100%, 85%);
+    text-decoration: none;
+}
+
+#about h1 {
+    font-size: 2em;
+    color: var(--color-red);
+}
+
+#about p {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer {
+    bottom: 0;
+    margin-top: 30em;
+    height: 200px;
+    font-size:20px;
+    color: var(--color-grey);
+    background-color:#777676;
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        margin-top: 70em;
+        padding-top: 1.5em;
+    }
+}
+@media screen and (max-width: 680px) {
+    .footer {
+        margin-top: 180em;
+    }
+    #features {
+        margin-top: 250%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .nav h2 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .items {
+        margin: 1em;
+    }
+    .head {
+        padding-top: 30%;
+    }
+    .home {
+        padding-top: 50%;
+    }
+    .nav {
+        height: 90px;
+        width:80%;
+        left: 5%;
+    }
+
+
+}
+
