@@ -47,13 +47,18 @@ body {
     transition: transform 0.5s;
 }
 
-
-.home {
+.fourofour {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    align-items: center;
     padding-top: 23%;
+}
+.home {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 25%;
     width: 100%;
     height: 80vh;
 }
@@ -164,7 +169,7 @@ body {
 
 @media screen and (max-width: 870px) {
     .nav h2 {
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 15px;
     }
     .items {
