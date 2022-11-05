@@ -8,9 +8,9 @@
       { "name": "Website", "value": "[`Visit`](https://brawley.js.org)", "inline": true },
       { "name": "Invite Me", "value": "[`Click Here`](https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands)", "inline": true },
       { "name": "\u200B", "value": "_ _", "inline": true },
-      { "name": "Contributors", "value": "[`@leecheeyong`](https://github.com/leecheeyong) & [`@w3cy`](https://github.com/w3cy)", "inline": false },
       { "name": "Community/Support Server", "value": "<:discord:1038374718438395934> [`Join Now`](https://discord.gg/Q9eMTRM3PH)", "inline": true },
       { "name": "Twitter", "value": "<:twitter:1038374621705150474> [`Follow us on twitter`](https://twitter.com/JetBrawley)", "inline": true },
+      { "name": "Contributors", "value": "[`@leecheeyong`](https://github.com/leecheeyong) & [`@w3cy`](https://github.com/w3cy)", "inline": false },
       { "name": "Disclaimer", "value": "This service is not affiliated with, sponsored, endorsed, or specifically approved by Supercell and Supercell is not responsible for it. For more information see [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/).", "inline": false },
       { "name": "Updates", "value": "```Jet Brawley Reworked !\n\nWe are so excited to announce that we have successfully added slash commands support and removed old message command as well as the transformation from multi purpose bot into a Supercell games stats bot. We'd like appreciate all the users that support the development of Jet Brawley. -- The owner of the bot, Joe```", "inline": false }
     ] 
