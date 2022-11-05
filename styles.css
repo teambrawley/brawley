@@ -80,7 +80,6 @@ nav ul li {
   padding: 25px;
 }
 
-
 .home {
     text-align: center;
     font-size: 30px;
@@ -88,6 +87,14 @@ nav ul li {
     padding-top: 40vh;
     width: 100%;
     height: 100vh;
+}
+
+.fourofour {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40vh;
+  width: 100%;
 }
 
 #features {
