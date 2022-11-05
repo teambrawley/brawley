@@ -15,6 +15,7 @@ html,
     --color-red: hsl(0, 100%, 85%);
     --color-grey: #414040;
     --color-bg: #2e2d2d;
+    scroll-behavior: smooth;
 }
 
 body {
