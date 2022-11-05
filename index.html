@@ -1,78 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<!-- Handmade By Chee Yong Lee <@leecheeyong> (https://joe.js.org)-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jet Brawley, a Supercell games statistics Discord Bot. All in one, supports Brawl Stars, Clash Royale and Clash Of Clans, the only bot you'll need.">
-  <meta name="author" content="@TeamBrawley">
-  <meta name="keywords" content="team brawley, Team Brawley, Brawley, brawly, brawl stars, bs, cr, coc, discord, team, teamer, the legendz, Clash Of Clans, Clash Royale, Clash Of Clans, jet brawley">
-  <meta name="google-site-verification" content="KwAOmP0jjMIB9wwXm89330pj0iBTmiUOwHeVxYT5S9s" />
-  <title>Home | Brawley</title>
-  <meta property="og:url" content="https://brawley.js.org" />
-  <meta property="og:title" content="Home | Brawley" />
-  <meta name="og:description" content="Jet Brawley, a Supercell games statistics Discord Bot. All in one, supports Brawl Stars, Clash Royale and Clash Of Clans, the only bot you'll need.">
-  <meta property="og:image" content="/assets/banner.png" />
-  <meta name="twitter:card" content="summary_large_image">
-  <link href="/styles.css" rel="stylesheet">
- 
+    <!-- Handmade By Chee Yong Lee <@leecheeyong> (https://joe.js.org)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Home | Jet Brawley</title>
+    <meta name="description" content="Jet Brawley, a Supercell games statistics Discord Bot. All in one, supports Brawl Stars, Clash Royale and Clash Of Clans, the only bot you'll need.">
+    <meta name="author" content="@TeamBrawley">
+    <meta name="keywords" content="team brawley, Team Brawley, Brawley, brawly, brawl stars, bs, cr, coc, discord, team, teamer, the legendz, Clash Of Clans, Clash Royale, Clash Of Clans, jet brawley">
+    <meta name="google-site-verification" content="KwAOmP0jjMIB9wwXm89330pj0iBTmiUOwHeVxYT5S9s"/>
+    <meta property="og:url" content="https://brawley.js.org"/>
+    <meta name="twitter:site" content="@JetBrawley">
+    <meta property="og:image" content="/assets/banner.png"/>
+    <meta name="twitter:card" content="summary_large_image">
 </head>
-
 <body>
-  <div class="nav">
-    <a href="#about"><h2>About</h2></a>   
-    <a href="#features"><h2>Features</h2></a>
-    <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands" target="_blank"><h2>Invite</h2></a>
-   <a href="https://discord.gg/Q9eMTRM3PH" target="_blank"><h2>Discord</h2></a>
+    <nav class="enlarge">
+        <ul>
+          <a href="#about"><li>About</li></a>
+          <a href="#features"><li>Features</li></a>
+          <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands" target="_blank"><li>Invite</li></a>
+          <a href="https://discord.gg/Q9eMTRM3PH" target="_blank"><li>Support</li></a>
+          <a href="https://github.com/BotStudios" target="_blank"><li>GitHub</li></a>
+          <a href="https://twitter.com/JetBrawley" target="_blank"><li>Twitter</li></a>
+        </ul>
+      </nav>
+
+      <div class="home">
+        <h1>Jet Brawley</h1>
+        <p>A Supercell Game Stats Bot</p>
+      </div>
+
+        <div id="features">
+        <h1>Features</h1>
+        <p>Jet Brawley supports the following games</p>
+        </div>
+        <div class="items">
+          <div class="box">
+            <h1>Brawl Stars</h1>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Club Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Club Members Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M6 22h13a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h1zm6-17.001c1.647 0 3 1.351 3 3C15 9.647 13.647 11 12 11S9 9.647 9 7.999c0-1.649 1.353-3 3-3zM6 17.25c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18H6v-.75z"></path></svg> Brawler Statistics</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M11 12h6v6h-6z"></path><path d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm.001 16H5V8h14l.001 12z"></path></svg> Events Rotation</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
+          </div>
+          <div class="box">
+            <h1>Clash Royale</h1> 
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Clan Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Clan Members Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
+          </div>
+          <div class="box">
+            <h1>Clash Of Clans</h1>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Clan Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Clan Members Stats</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
+          </div>
+      </div>
+
+      <div class="showcase">
+        <div class="card">
+          <h1>Get a player's stats with ease</h1>
+          <p>Multiple options to choose from</p>
+          <img class="enlarge" src="https://cdn.discordapp.com/attachments/792379376377004047/1038394996686065734/image.png" alt="stats" style="max-width:400px">
+          </div>
+
+          <div class="card">
+            <h1>Save a tag with ease</h1>
+            <p>Tired of typing out your tag ? Save a tag for future use</p>
+            <img class="enlarge" src="https://cdn.discordapp.com/attachments/792379376377004047/1038451544942715002/image.png" alt="stats" style="max-width:400px">
+            </div>
   </div>
-  
-  <div class="home">
-    <h1>Jet Brawley</h1>
-    <p>A Supercell Game Stats Bot</p>
+    <div class="showcase">
+      <div class="card">
+        <h1>Great stats !</h1>
+        <p>Get all the basic information of a player</p>
+        <img class="enlarge" src="https://cdn.discordapp.com/attachments/792379376377004047/1038398753176043551/image.png" alt="stats" style="max-width:430px">
+        </div>
+            <div class="card">
+              <h1>Go Deep !</h1>
+              <p>Get useful stats that you'll never find elsewhere</p>
+              <img class="enlarge" src="https://cdn.discordapp.com/attachments/792379376377004047/1038399614145007637/image.png" alt="stats" style="max-width:380px">
+              <img class="enlarge" src="https://cdn.discordapp.com/attachments/792379376377004047/1038399614522507364/image.png" alt="stats" style="max-width:380px">
+            </div>     
   </div>
-  
+
+  <div class="showcase">
+    <div class="card">
+      <h1>Get a player's stats with ease</h1>
+      <p>Multiple options to choose from</p>
+      <img class="enlarge" src="https://cdn.discordapp.com/attachments/885662162947825684/1038450538016165888/image.png" alt="stats" style="max-width:400px">
+      </div>
+
+      <div class="card">
+        <h1>Stay up to date !</h1>
+        <p>Update statistics & data with ease</p>
+        <img class="enlarge" src="https://cdn.discordapp.com/attachments/885662162947825684/1038467436380426350/image.png" alt="stats" style="max-width:450px">
+        </div>
+</div>
+
   <div id="about">
     <h1>About</h1>
-    <p>Jet Brawley is an <a target="_blank" href="https://github.com/BotStudios/Jet-Brawley">open source</a> Discord Bot developed by <a href="https://joe.js.org" target="_blank">Joe (Chee Yong Lee)</a> and the <a href="https://studios.js.org">BotStudios</a> since Sat Dec 26 2020. The bot was mainly focused on the game <a href="https://brawlstars.com">Brawl Stars</a> but soon got further and added support for <a href="https://clashroyale.com">Clash Royale</a> and <a href="https://clashofclans.com">Clash Of Clans</a>. Soon, moderation and many features were added but unfortunately, in the year of 2022, the owner Joe planned to shut down the bot because it was a huge challenge to maintain the bot and keep it running as well as up to date. Meanwhile, bots like Brawly had shutdown their service and many Brawl Stars player/enthusiast were very disappointed, because of this, Joe had once again reconsider and eventually put some effort on rewriting Jet Brawley and made it a Supercell Games focused bot. </p>
-  </div>
-  <div class="head">
-    <div id="features">
-    <h1>Features</h1>
-    <p>Jet Brawley supports the following games</p>
-    </div>
-    <div class="items">
-      <div class="box">
-        <h1>Brawl Stars</h1>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Club Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Club Members Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M6 22h13a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h1zm6-17.001c1.647 0 3 1.351 3 3C15 9.647 13.647 11 12 11S9 9.647 9 7.999c0-1.649 1.353-3 3-3zM6 17.25c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18H6v-.75z"></path></svg> Brawler Statistics</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M11 12h6v6h-6z"></path><path d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm.001 16H5V8h14l.001 12z"></path></svg> Events Rotation</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
-      </div>
-      <div class="box">
-        <h1>Clash Royale</h1> 
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Clan Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Clan Members Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
-      </div>
-      <div class="box">
-        <h1>Clash Of Clans</h1>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M12 2A10.13 10.13 0 0 0 2 12a10 10 0 0 0 4 7.92V20h.1a9.7 9.7 0 0 0 11.8 0h.1v-.08A10 10 0 0 0 22 12 10.13 10.13 0 0 0 12 2zM8.07 18.93A3 3 0 0 1 11 16.57h2a3 3 0 0 1 2.93 2.36 7.75 7.75 0 0 1-7.86 0zm9.54-1.29A5 5 0 0 0 13 14.57h-2a5 5 0 0 0-4.61 3.07A8 8 0 0 1 4 12a8.1 8.1 0 0 1 8-8 8.1 8.1 0 0 1 8 8 8 8 0 0 1-2.39 5.64z"></path><path d="M12 6a3.91 3.91 0 0 0-4 4 3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4zm0 6a1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2 1.91 1.91 0 0 1-2 2z"></path></svg> Profile Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"></path></svg> Clan Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z"></path></svg> Clan Members Stats</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 254, 254, 1);"><path d="M5 21h14a2 2 0 0 0 2-2V8a1 1 0 0 0-.29-.71l-4-4A1 1 0 0 0 16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm10-2H9v-5h6zM13 7h-2V5h2zM5 5h2v4h8V5h.59L19 8.41V19h-2v-5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v5H5z"></path></svg> Save upto one tag</span>
-      </div>
-  </div>
-  </div>
+    <p>Jet Brawley is an <a target="_blank" href="https://github.com/BotStudios/Jet-Brawley">open source</a> Discord Bot developed by <a href="https://joe.js.org" target="_blank">Joe (Chee Yong Lee)</a> and the <a href="https://studios.js.org">BotStudios</a> since Sat Dec 26 2020. The bot was mainly a multi-purpose Discord Bot, it offers plenty of features such as moderation & music. Unfortunately, in the year of 2022, <a target="_blank" href="https://joe.js.org">Joe</a> had a plan to shutdown Jet Brawley as it was a huge challenge to maintain the bot and keep it up to date. Meanwhile, bots like Brawly announced that they're shutting down their service, this was a downcast for the community of these games and that caused <a target="_blank" href="https://joe.js.org">Joe</a> to reconsider about his plan. Ultimately, Joe and his team  <a target="_blank" href="https://studios.js.org">@Bot Studios</a> decided to rewrite the bot and made it a  <a target="_blank" href="https://supercell.com">Supercell</a> Games Stats Bot.</p>
+    <p style="font-size:1em;">We are always happy to contribute to the community despite that we no longer enjoy playing these games.</p>
   </div>
 
-</body>
-<div class="footer">
-  <p><a target="_blank" href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands">Invite Jet Brawley</a> to your server now, you'll never regret !</p>
-  <p>Jet Brawley Website &copy; - Made by <a target="_blank" href="https://joe.js.org">Lee Chee Yong</a></p>
-  <p>This project is available as open source under the terms of the <a href="https://github.com/brawlie/brawley/LICENSE">GPL-3.0 License</a></p>
-</div>
+     <div class="footer">
+        <p><a target="_blank" href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands">Invite Jet Brawley</a> to your server now, you'll never regret !</p>
+        <p>Jet Brawley Website &copy; - Made by <a target="_blank" href="https://joe.js.org">Lee Chee Yong</a></p>
+        <p>This project is available as open source under the terms of the <a href="https://github.com/brawlie/brawley/LICENSE">GPL-3.0 License</a></p>
+  </div>
+    </body>
 </html>
+<!-- Handmade By Chee Yong Lee <@leecheeyong> (https://joe.js.org)-->
