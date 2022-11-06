@@ -9,6 +9,7 @@ This website was made & designed by <a href="https://github.com/leecheeyong">Lee
 - [Discord](https://discord.com/invite/Q9eMTRM3PH)
 - [Twitter](https://twitter.com/JetBrawley)
 - [Invite](https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands)
+- [Privacy Policy](https://brawley.js.org/privacy#about)
 
 ## Credit
 Please have a link to this repository and the original website (https://brawley.js.org) and the author (Lee Chee Yong) if you use any source code from this repository.
