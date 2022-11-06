@@ -2,4 +2,3 @@ https://brawley.js.org/
 https://brawley.js.org/privacy
 https://brawley.js.org/team
 https://brawley.js.org/discord
-https://brawley.js.org/invite
