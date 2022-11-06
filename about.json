@@ -5,7 +5,7 @@
     "color": "#3289a8",
     "fields": [
       { "name": "Our Team", "value": "[`@BotStudios`](https://github.com/BotStudios) & [`@CodingStudios`](https://github.com/CodingStudios)", "inline": false },
-      { "name": "Website", "value": "[`Homepage`](https://brawley.js.org) [`Privacy Policy`](https://brawley.js.org/privacy)", "inline": true },
+      { "name": "Website", "value": "[`Homepage`](https://brawley.js.org)\n [`Privacy Policy`](https://brawley.js.org/privacy)", "inline": true },
       { "name": "Invite Me", "value": "[`Click Here`](https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot%20applications.commands)", "inline": true },
       { "name": "\u200B", "value": "_ _", "inline": true },
       { "name": "Community/Support Server", "value": "<:discord:1038374718438395934> [`Join Now`](https://discord.gg/Q9eMTRM3PH) _ _ <:twitter:1038374621705150474> [`Follow us on twitter`](https://twitter.com/JetBrawley)", "inline": false },
