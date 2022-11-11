@@ -179,6 +179,50 @@ nav ul li {
   border-radius: 10px;
 }
 
+.rack {
+  align-items: center;
+  gap: 2rem;
+  left:0;
+  right:0;
+  margin-left: auto;
+  padding: 2rem 2rem 2rem;
+}
+
+.btn {
+  background-color: var(--color-grey);
+  color: var(--color-red);
+  border: none;
+  border-radius: 10px;
+  padding: .5em 1em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  line-height: 3em;
+  transition: all .5s ease;
+}
+
+.rackBox {
+  margin-bottom: 1rem;
+  background-color: #35383e;
+  border-radius: 20px;
+  min-height: 30vh;
+  padding: 2em; 
+  align-items: center;
+  text-align: center;
+}
+
+.rackBox > p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.rackBox > .img {
+  width: 220px;
+  border-radius: 25px;
+  padding: 1em;
+}
+
 .showcase {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
