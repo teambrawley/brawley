@@ -11,7 +11,7 @@
       { "name": "Community/Support Server", "value": "<:discord:1038374718438395934> [`Join Now`](https://discord.gg/Q9eMTRM3PH) _ _ _ _ <:twitter:1038374621705150474> [`Follow us on twitter`](https://twitter.com/JetBrawley)", "inline": false },
       { "name": "Contributors", "value": "[`@leecheeyong`](https://github.com/leecheeyong) & [`@w3cy`](https://github.com/w3cy)", "inline": false },
       { "name": "Disclaimer", "value": "This service is not affiliated with, sponsored, endorsed, or specifically approved by Supercell and Supercell is not responsible for it. For more information see [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/). Please read our [Privacy Policy](https://brawley.js.org/privacy) to learn more about how we collect, use, store, protect your data.", "inline": false },
-      { "name": "Updates", "value": "```Jet Brawley Reworked !\n\nWe are so excited to announce that we have successfully added slash commands support and removed old message command as well as the transformation from multi purpose bot into a Supercell games stats bot. We'd like appreciate all the users that support the development of Jet Brawley. -- The owner of the bot, Joe```", "inline": false }
+      { "name": "Updates", "value": "```New Updates !\n\nWe have just updated our bot to the latest version of discord.js, the version 14. Altough we have already tested all the commands and features, it is still possible that you as a user will encounter a bug. If so, please let us know in our Discord Server, link is above. Thanks for using Jet Brawley !```", "inline": false }
     ] 
   }
 }
