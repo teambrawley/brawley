@@ -2,7 +2,7 @@
   "greet": ["Hello There,", "Hi,", "Hola Amigo", "こんにちは", "你好", "What's up,", "Tere", "Hallo", "Salve", "안녕", "Aloha", "Hei", "Bonjour"],
   "description": "Hey I'm `Jet Brawley`, I'm an [**open source**](https://github.com/BotStudios/Jet-Brawley) `Supercell games stats` bot created by <:eyy:843782722342223873> [**`Joe (Chee Yong Lee)`**](https://github.com/joeleeofficial), using <:djs:844525801613033502> `discord.js@{discord.js-version}`. I've been up since {uptime} and I'm glad to see you here.",
   "embed": {
-    "color": "#3289a8",
+    "color": "#facdcd",
     "fields": [
       { "name": "Our Team", "value": "[`@BotStudios`](https://github.com/BotStudios) & [`@CodingStudios`](https://github.com/CodingStudios)", "inline": false },
       { "name": "Website", "value": "[`Homepage`](https://brawley.js.org)", "inline": true },
