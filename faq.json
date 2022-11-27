@@ -1,0 +1,34 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Jet Brawley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jet Brawley is an open source Supercell games statistics Discord bot."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Who maintains Jet Brawley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The members of Bot Studios Organization."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Who created Jet Brawley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chee Yong Lee, known as Joe was the owner of Jet Brawley Discord Bot."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Which programming language was Jet Brawley written in?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jet Brawley Discord Bot was written in Javascript"
+        }
+      }
+     }]
+    }
