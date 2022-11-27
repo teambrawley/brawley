@@ -278,6 +278,7 @@ nav ul li {
 
 #faq p {
     width: 80%;
+    display: none;
     font-size: 20px;
     margin-left: 10%;
     margin-bottom: 5px;
