@@ -29,6 +29,34 @@
           "@type": "Answer",
           "text": "Jet Brawley Discord Bot was written in Javascript"
         }
+      }, {
+        "@type": "Question",
+        "name": "Where can I find Jet Brawley Discord Bot's source code?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<a href='https://github.com/BotStudios/Jet-Brawley'>Jet Brawley Discord Bot's Source Code is available on Bot Studios Github Organization</a>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "How to invite Jet Brawley to my server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On Jet Brawley's Discord profile, click on the 'Add to server' button."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Which library does Jet Brawley uses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jet Brawley uses discord.js library, the Discord API wrapper."
+        }
+      }, {
+        "@type": "Question",
+        "name": "When was Jet Brawley created?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jet Brawley Discord bot was created on Sat Dec 26 2020."
+        }
       }
      }]
     }
