@@ -12,7 +12,9 @@ fetch("/faq.json")
     const answer = document.createElement('p');
     question.textContent = e.name;
     answer.innerHTML = e.acceptedAnswer.text;
-    answer.onclick = () => { answer.style.display = "block" };
+    question.onclick = () => { 
+      answer.style.display = `${answer.style.display = "none" ? "block" : "none"}`
+    };
     about.appendChild(question);
     about.appendChild(answer);
     about.appendChild(document.createElement('br'));
