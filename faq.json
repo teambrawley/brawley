@@ -57,6 +57,13 @@
           "@type": "Answer",
           "text": "Jet Brawley Discord bot was created on Sat Dec 26 2020."
         }
+      }, {
+        "@type": "Question",
+        "name": "How to save your in-game tag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Run /cr save to save your Clash Royale in-game tag, following with /bs save for Brawl Stars & /coc save for Clash Of Clans."
+        }
       }
      }]
     }
