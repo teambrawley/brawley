@@ -3,9 +3,9 @@ fetch("/faq.json")
 .then(structuredDataText => {
   const script = document.createElement('script');
   script.setAttribute('type', 'application/ld+json');
-  script.textContent = structuredDataText;
+  script.textContent = JSON.stringify(structuredDataText);
   document.head.appendChild(script);
-  const about = document.getElementById("about");
+  const about = document.getElementById("faq");
   const faqs = structuredDataText.mainEntity;
   faqs.forEach(e => {
     const question = document.createElement('h2');
