@@ -273,6 +273,7 @@ nav ul li {
 
 #faq h2 {
     font-size: 1.3em;
+    cursor: pointer;
     color: var(--color-red);
 }
 
