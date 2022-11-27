@@ -272,7 +272,7 @@ nav ul li {
 }
 
 #faq h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: var(--color-red);
 }
 
@@ -280,5 +280,6 @@ nav ul li {
     width: 80%;
     font-size: 20px;
     margin-left: 10%;
+    margin-bottom: 5px;
 }
 
