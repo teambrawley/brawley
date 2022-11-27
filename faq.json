@@ -34,7 +34,7 @@
         "name": "Where can I find Jet Brawley Discord Bot's source code?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<a href='https://github.com/BotStudios/Jet-Brawley'>Jet Brawley Discord Bot's Source Code is available on Bot Studios Github Organization</a>"
+          "text": "Jet Brawley Discord Bot's Source Code is available on <a href='https://github.com/BotStudios/Jet-Brawley'>Bot Studios Github Organization</a>"
         }
       }, {
         "@type": "Question",
