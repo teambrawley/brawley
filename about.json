@@ -1,5 +1,6 @@
 {
   "greet": ["Hello There,", "Hi,", "Hola Amigo", "こんにちは", "你好", "What's up,", "Tere", "Hallo", "Salve", "안녕", "Aloha", "Hei", "Bonjour"],
+  "tips": ["Made With Love 💖 By @Joe Lee", "brawley.js.org"],
   "description": "Hey I'm `Jet Brawley`, I'm an [**open source**](https://github.com/BotStudios/Jet-Brawley) `Supercell games stats` bot created by <:eyy:843782722342223873> [**`Joe (Chee Yong Lee)`**](https://github.com/joeleeofficial), using <:djs:844525801613033502> `discord.js@{discord.js-version}`. I've been up since {uptime} and I'm glad to see you here.",
   "embed": {
     "color": "#facdcd",
