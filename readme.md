@@ -2,7 +2,7 @@
 An introduction website for <a href="https://github.com/BotStudios/Jet-Brawley">Jet Brawley Discord Bot</a>
 
 ## About
-Designed & made by <a href="https://github.com/leecheeyong">Lee Chee Yong</a>, the owner of Jet Brawley Discord Bot.
+Designed & made with ❤️ by <a href="https://github.com/leecheeyong">Lee Chee Yong</a>, the owner of Jet Brawley Discord Bot.
 
 ## Links
 - [Source Code](https://github.com/BotStudios/Jet-Brawley)
