@@ -23,8 +23,7 @@ body {
     align-items: center;
     color: white;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Lilita One', cursive;
+    font-family: 'Lilita One', 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
