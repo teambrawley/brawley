@@ -77,7 +77,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  padding: 25px;
+  margin: 25px;
 }
 
 .home {
