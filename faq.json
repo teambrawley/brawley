@@ -6,7 +6,7 @@
         "name": "What is Jet Brawley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jet Brawley is an open source Supercell games statistics Discord bot."
+          "text": "Jet Brawley#4255 is an open source Supercell games statistics Discord bot."
         }
       }, {
         "@type": "Question",
@@ -41,7 +41,7 @@
         "name": "How to invite Jet Brawley to my server?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "On Jet Brawley's Discord profile, click on the 'Add to server' button."
+          "text": "On Jet Brawley#4255's Discord profile, click on the 'Add to server' button."
         }
       }, {
         "@type": "Question",
@@ -63,6 +63,13 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Run /cr save to save your Clash Royale in-game tag, following with /bs save for Brawl Stars & /coc save for Clash Of Clans."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How to delete my data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To delete your user data, run /privacy. This command will delete everything related to you in our database."
         }
       }]
     }
