@@ -59,7 +59,7 @@
         }
       }, {
         "@type": "Question",
-        "name": "How to save your in-game tag?",
+        "name": "How to save my in-game tag?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Run /cr save to save your Clash Royale in-game tag, following with /bs save for Brawl Stars & /coc save for Clash Of Clans."
